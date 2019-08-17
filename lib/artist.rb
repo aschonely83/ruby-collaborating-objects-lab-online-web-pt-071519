@@ -13,7 +13,8 @@ class Artist
   end
   
   def save
-    
+    @@all << self
+  end  
  
   def songs
     Song.all.select {|song| song.artist == self}
