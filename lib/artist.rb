@@ -24,6 +24,10 @@ class Artist
     self.find(name) ? self.find(name) : self.new(name) 
   end
   
+  def find(name)
+    
+  end  
+  
   def save
     @@all << self
   end  
