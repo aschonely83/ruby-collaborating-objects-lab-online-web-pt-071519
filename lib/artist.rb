@@ -25,7 +25,7 @@ class Artist
   end
   
   def self.find(name)
-    self.all.find {|artist| }
+    self.all.find {|artist| artis.name = name}
   end  
   
   def save
